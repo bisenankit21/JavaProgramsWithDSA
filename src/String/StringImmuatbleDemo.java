@@ -6,7 +6,7 @@ public class StringImmuatbleDemo {
         s = "Hello World";
         System.out.println(s);
         final String s1 = "Hello";    // String literal
-        s1 = "Hi World";
+       // s1 = "Hi World";   //will give error
     }
 
 }
