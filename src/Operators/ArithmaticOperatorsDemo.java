@@ -19,6 +19,25 @@ public class ArithmaticOperatorsDemo {
         num4 =num5 + num6;
         System.out.println(num4);
 
+        int result = 9/2;
+        float result1 = 9/2f;
+
+        int result2 = 9%2;
+
+        byte num7 = 10;
+        byte num8 = 5;
+        byte result3 = (byte) (num7 + num8);   // num7 and num8 will convert into int data type before operation.
+
+        byte num9 = 10;
+        byte num10 = 5;
+        byte result4 = (byte) (num9 - num10);   // num9 and num10 will convert into int data type before operation.
+
+        byte num11 = -(-10);
+
+        int num12 = 10;
+        num12+=2.2;
+
+
 
     }
 }
