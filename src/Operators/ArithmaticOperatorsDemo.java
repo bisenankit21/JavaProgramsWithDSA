@@ -37,6 +37,13 @@ public class ArithmaticOperatorsDemo {
         int num12 = 10;
         num12+=2.2;
 
+        int num13 = 10;
+        int num14 = 2;
+        num14 = num13++ +5;
+
+        int num15 = 9;
+        num15 = num15++;
+
 
 
     }
