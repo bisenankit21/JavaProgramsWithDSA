@@ -1,4 +1,4 @@
-package String;
+package string;
 
 public class StringFormatDemo {
     public static void main(String[] args) {

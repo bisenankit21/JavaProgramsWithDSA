@@ -1,6 +1,4 @@
-package String;
-
-import java.sql.SQLOutput;
+package string;
 
 public class PrintfDemo {
 public static void main(String[] args) {
