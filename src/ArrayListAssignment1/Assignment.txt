@@ -1,0 +1,45 @@
+ArrayList Operations in Java
+Code Assignment:
+
+On the right hand side, you have couple of classes with the name Task and TaskManager.
+
+Inside the TaskManager class, there is a static method makeToDoList() that accepts no input parameters and
+return List<Task>
+
+Follow the below instructions to complete this assignment,
+
+1) First understand the POJO class Task.java and using the same inside the makeToDoList() method , create an
+ArrayList with three tasks namely "Complete assignment", "Go for a run", "Buy groceries".
+
+2) By default all the tasks inside the list are going to have completed boolean variable as false. For the
+second task in the list "Go for a run", update the completed boolean variable as true.
+
+3) Iterate all the elements inside the list and using the task details, display the below content on to the
+console,
+
+1. Complete assignment - Completed: false
+2. Go for a run - Completed: true
+3. Buy groceries - Completed: false
+4) At last return the list from the method
+
+Expected Output:
+
+[Task{description='Complete assignment', completed=false},
+Task{description='Go for a run', completed=true},
+Task{description='Buy groceries', completed=false}]
+
+
+Once you completes writing your code, click on the Run tests button to know the result.
+
+Any time, you want to start again from scratch, click on the Reset button
+
+
+
+Did you know?
+
+ArrayList in Java allows you to dynamically resize the underlying array. When you add elements to an ArrayList
+and it reaches its capacity, it automatically increases the size of the underlying array to accommodate
+additional elements. This resizing process is done by creating a new array with a larger capacity, copying
+existing elements to the new array, and then updating the ArrayList's reference to the new array. This
+dynamic resizing mechanism helps to efficiently manage memory and allows ArrayList to grow as needed without
+the need for manual intervention.
