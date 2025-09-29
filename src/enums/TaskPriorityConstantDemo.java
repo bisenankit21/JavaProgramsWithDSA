@@ -1,10 +1,14 @@
 package enums;
 
 public class TaskPriorityConstantDemo {
+    private PriorityEnum priority;
+
+
     public static void main(String[] args) {
-        System.out.println(TaskUtil.getEstimatedCompletionTime(0));
-        System.out.println(TaskUtil.getEstimatedCompletionTime(1));
-        System.out.println(TaskUtil.getEstimatedCompletionTime(2));
-        System.out.println(TaskUtil.getEstimatedCompletionTime(3));
+        PriorityEnum priorityEnum = null;
+        System.out.println(TaskUtil.getEstimatedCompletionTime(PriorityEnum.LOW));
+        System.out.println(TaskUtil.getEstimatedCompletionTime(PriorityEnum.MEDIUM));
+        System.out.println(TaskUtil.getEstimatedCompletionTime(PriorityEnum.HIGH));
+        System.out.println(TaskUtil.getEstimatedCompletionTime(PriorityEnum.URGENT));
     }
 }
