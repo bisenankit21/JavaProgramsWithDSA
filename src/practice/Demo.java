@@ -1,4 +1,4 @@
-import com.sun.jdi.connect.Connector;
+package practice;
 
 import java.util.Arrays;
 

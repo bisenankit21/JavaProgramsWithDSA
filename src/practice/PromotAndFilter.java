@@ -1,3 +1,5 @@
+package practice;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -17,7 +19,7 @@ class Student {
 }
 
 /*
-Ques: class Student { int standard;   String name} List<Student>
+Ques: class practice.Student { int standard;   String name} List<practice.Student>
 standard 1 to 12 promote all students to next standard and filter students in the new list which are from standard 8 to 12 Ram- 1, Shyam-2, Rohan-3, Sohan-4, Mohan-4, Leela-5,Suresh-7 AFTER PROMOTION: Ram-2, Shyam-3, Rohan-4, Sohan-5, Mohan-5, Leela-6, Suresh-8
 */
 
